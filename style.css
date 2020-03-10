@@ -1,0 +1,58 @@
+@font-face {
+    font-family: shabnam-eot;
+    src: url(Shabnam.eot);
+}
+
+@font-face {
+    font-family: Shabnam-ttf;
+    src: url(Shabnam.ttf);
+}
+
+@font-face {
+    font-family: Shabnam-woff;
+    src: url(Shabnam.woff);
+}
+
+@font-face {
+    font-family: Shabnam-Bold-ttf;
+    src: url(Shabnam-Bold.ttf);
+}
+
+@font-face {
+    font-family: Shabnam-Light-ttf;
+    src: url(Shabnam-Light.ttf);
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #F5F5F5;
+    direction: rtl;
+    margin: 0px;
+}
+.menu{
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    background-color: white;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.navbar {
+    height: 200px;
+    width: calc(100vw - 300px);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: yellow;
+    display: flex;
+}
+.main-container{
+    height: calc(100vh - 200px);
+    width: calc(100vw - 300px);
+    background-color: firebrick;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+}
