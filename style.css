@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Shabnam-ttf;
-    src: url(Fonts/Shabnam.ttf);
+    font-family: Shabnam;
+    src: url(Fonts/Fonts/Shabnam.woff);
 }
 
 @font-face {
@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: Shabnam-Bold-ttf;
-    src: url(Fonts/Shabnam-Bold.ttf);
+    src: url(Fonts/Shabnam-Bold2.ttf);
 }
 
 @font-face {
@@ -42,6 +42,7 @@ body {
     top: 27px;
     width: 60px;
     height: 60px;
+    color: white
 }
 
 .navbar {
@@ -332,3 +333,10 @@ fonts
     list-style-type: none;
 
 }
+.top-box ul{
+
+    padding-inline-start: 15px;
+    margin-block-start: 0.5em;
+    margin-block-end: 0em;
+}
+
