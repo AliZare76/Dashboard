@@ -4,13 +4,13 @@
 }
 
 @font-face {
-    font-family: Shabnam-woff;
+    font-family: Shabnam-ttf;
     src: url(Fonts/Shabnam.woff);
 }
 
 @font-face {
     font-family: Shabnam-Bold-ttf;
-    src: url(Fonts/Shabnam-Bold2.ttf);
+    src: url(Fonts/Shabnam-Bold.ttf);
 }
 
 @font-face {
@@ -251,7 +251,8 @@ h3 {
     left: 35px;
     border: 1px groove  #b8b4b4;
     border-radius: 10px;
-    top:19px;
+    box-shadow: 5px, 5px;
+    top:30px;
     padding: 2px;
     display: flex;
     align-items: center;
