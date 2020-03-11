@@ -7,64 +7,108 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
 </head>
 
 <body>
     <div class="menu">
         <div class="time">
             <div>
-                <h1>15</h1>
-                <h2>:46</h2>
+                <h2 class="h2time">46 :</h2>
+                <h1 class="h1time">15</h1>
+
             </div>
             <div>
-                <h3>یکشنبه ، 12 فروردین</h3>
+                <h3 class="h3time">یکشنبه ، 12 فروردین</h3>
             </div>
         </div>
         <div class="profile">
             <img src="jpg/SteveJobs.jpg" class="picture">
             <div>
-                <p>استیو جابز</p>
+                <p class="p1profile">استیو جابز</p>
                 <p>توسعه دهنده</p>
             </div>
         </div>
         <div class="list">
             <ul>
-                <li><i class="fas fa-tv"></i>داشبورد</li>
-                <li><i class="far fa-file-alt"></i>صندوق پیام</li>
-                <li>تیکت</li>
-                <li>دانشنامه</li>
+                <li><i class="fas fa-tv"></i> داشبورد<span class="number">2</span> </li>
+                <li><i class="far fa-file-alt"></i> صندوق پیام <span class="number">18</span> </li>
+                <li><i class="fas fa-archive"></i> تیکت</li>
+                <li><i class="fas fa-book"></i> دانشنامه</li>
                 <ul>
                     <li>همه دانشنامه ها</li>
                     <li>پیش نویس ها</li>
                 </ul>
-                <li>اخبار</li>
-                <li>مدیریت</li>
-              </ul>
+                <li><i class="fas fa-building"></i> اخبار</li>
+                <li><i class="fas fa-cog"></i> مدیریت</li>
+            </ul>
         </div>
     </div>
     <div class="navbar">
         <div class="top-box">
-            <div class="icon-1"><img src="PNG/users.png"></div>
+            <div class="icon-1"><img src="PNG/users.png " class="center"></div>
+            <ul>
+                <li class="p1topbox">تعداد کل کاربران</li>
+                <li class="p2topbox">856</li>
+                <li class="p1topbox">کاربر فعال</li>
+            </ul>
         </div>
         <div class="top-box">
-            <div class="icon-2"><img src="PNG/tickets.png"></div>
+            <div class="icon-2"><img src="PNG/tickets.png"class="center"></div>
+            <ul>
+                <li class="p1topbox">تعداد کل تیکت ها</li>
+                <li class="p2topbox">856</li>
+                <li class="p1topbox">بسته شده</li>
+            </ul>
         </div>
         <div class="top-box">
-            <div class="icon-3"><img src="PNG/messages.png"></div>
+            <div class="icon-3"><img src="PNG/messages.png" class="center"></div>
+            <ul>
+                <li class="p1topbox">تعداد کل کاربران</li>
+                <li class="p2topbox">856</li>
+                <li class="p1topbox">کاربر فعال</li>
+            </ul>
         </div>
         <div class="top-box">
-            <div class="icon-4"><img src="PNG/encyclopedias.png"></div>
+            <div class="icon-4"><img src="PNG/encyclopedias.png"class="center"></div>
+            <ul>
+                <li class="p1topbox">تعداد کل کاربران</li>
+                <li class="p2topbox">856</li>
+                <li class="p1topbox">کاربر فعال</li>
+            </ul>
         </div>
     </div>
     <div class="main-container">
         <div class="write-box">
             <i class="far fa-edit edit"></i>
         </div>
-        <div class="summary"></div>
-        <div class="ticket"></div>
-        <div class="inbox"></div>
+        <div class="summary">
+            <div class="summary-header">
+                <p>خلاصه عملکرد</p>
+            </div>
+            <div class="summary-icon">
+                <p>ماه گذشته</p>
+            </div>
+        </div>
+        <div class="ticket">
+            <div class="ticket-list underline">
+                <p>تیکت های ستاره دار</p>
+            </div>
+            <div class="ticket-list">
+                <p>باز (همراه پاسخ)</p>
+            </div>
+            <div class="ticket-list">
+                <p>باز (بدون پاسخ)</p>
+            </div>
+            <div class="ticket-list">
+                <p>بسته</p>
+            </div>
+        </div>
+        <div class="inbox">
+            <div class="inbox-header">
+                <p>صندوق پیام</p>
+            </div>
+        </div>
     </div>
 </body>
 

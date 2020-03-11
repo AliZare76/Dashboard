@@ -1,26 +1,21 @@
 @font-face {
-    font-family: shabnam-eot;
-    src: url(Shabnam.eot);
-}
-
-@font-face {
     font-family: Shabnam-ttf;
-    src: url(Shabnam.ttf);
+    src: url(Fonts/Shabnam.ttf);
 }
 
 @font-face {
     font-family: Shabnam-woff;
-    src: url(Shabnam.woff);
+    src: url(Fonts/Shabnam.woff);
 }
 
 @font-face {
     font-family: Shabnam-Bold-ttf;
-    src: url(Shabnam-Bold.ttf);
+    src: url(Fonts/Shabnam-Bold.ttf);
 }
 
 @font-face {
     font-family: Shabnam-Light-ttf;
-    src: url(Shabnam-Light.ttf);
+    src: url(Fonts/Shabnam-Light.ttf);
 }
 
 body {
@@ -41,9 +36,16 @@ body {
     flex-direction: column;
 
 }
+.edit{
+    position: absolute;
+    left: 0px;
+    top: 27px;
+    width: 60px;
+    height: 60px;
+}
 
 .navbar {
-    height: 140px;
+    height: 120px;
     width: calc(100vw - 270px);
     position: fixed;
     top: 0px;
@@ -54,7 +56,7 @@ body {
 }
 
 .main-container {
-    height: calc(100vh - 140px);
+    height: calc(100vh - 120px);
     width: calc(100vw - 270px);
     position: fixed;
     left: 0px;
@@ -67,9 +69,10 @@ body {
 .top-box {
     position: relative;
     width: 280px;
-    height: 100px;
+    height: 80px;
     background-color: white;
     border-radius: 8px;
+    box-shadow: 1px 1px 1px 1px #E6E6E6;
 }
 
 .icon-1 {
@@ -77,11 +80,10 @@ body {
     position: absolute;
     left: 0px;
     width: 68px;
-    height: 100px;
+    height: 80px;
+    top:0px;
     border-radius: 8px 0px 0px 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 .icon-2 {
@@ -89,11 +91,10 @@ body {
     position: absolute;
     left: 0px;
     width: 68px;
-    height: 100px;
+    height: 80px;
     border-radius: 8px 0px 0px 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
+    top:0px;
 }
 
 .icon-3 {
@@ -101,11 +102,10 @@ body {
     position: absolute;
     left: 0px;
     width: 68px;
-    height: 100px;
+    height: 80px;
     border-radius: 8px 0px 0px 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
+    top:0px;
 }
 
 .icon-4 {
@@ -113,18 +113,24 @@ body {
     position: absolute;
     left: 0px;
     width: 68px;
-    height: 100px;
+    height: 80px;
     border-radius: 8px 0px 0px 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
+    top:0px;
 }
-
+.center {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    
+}
 .write-box {
     width: 750px;
     height: 350px;
     background-color: #6866E5;
     border-radius: 8px;
+    box-shadow: 1px 1px #4B088A;
+    position: relative;
 }
 
 .summary {
@@ -132,20 +138,25 @@ body {
     height: 350px;
     background-color: white;
     border-radius: 8px;
+    position: relative;
+    box-shadow: 1px 1px 1px 1px #E6E6E6;
 }
 
 .ticket {
     width: 750px;
-    height: 200px;
+    height: 230px;
     background-color: white;
     border-radius: 8px;
+    box-shadow: 1px 1px 1px 1px #E6E6E6;
 }
 
 .inbox {
     width: 490px;
-    height: 200px;
+    height: 230px;
     background-color: white;
     border-radius: 8px;
+    position: relative;
+    box-shadow: 1px 1px 1px 1px #E6E6E6;
 }
 
 .time {
@@ -184,10 +195,7 @@ h3 {
     border-radius: 30px;
     display: inline;
 }
-p{
-    margin-right: 5px;
-    padding: 0px;
-}
+
 .list{
     display: flex;
     flex-direction: column;
@@ -195,11 +203,112 @@ p{
 .list ul {
     list-style-type: none;
     color: #9e9e9e;
+    font-family: Shabnam-Light-ttf;
 }
 .list ul li {
     padding: 8px;
+    width: 80%;
 }
-.edit{
-    width: 20px;
-    height: 20px;
+.number{
+    width: 17px;
+    height: 17px;
+    background-color: red;
+    border-radius: 7.5px;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+.ticket-list{
+    margin-top: 10px;
+    margin-right: 45px;
+    display: inline-block;
+    font-family: Shabnam-Light-ttf;
+    font-size: 15px;
+    color: #9e9e9e;
+
+}
+.underline{
+    border-bottom:2px solid rebeccapurple;
+    padding: 8px;
+    font-family: Shabnam-Bold-ttf;
+    color: black;
+}
+.summary-header{
+    height: 35px;
+    padding: 16px;
+    right: 12px;
+    position: absolute;
+    border-bottom: 2px solid purple;
+}
+.summary-icon{
+    width: 100px;
+    height: 29px;
+    position: absolute;
+    left: 35px;
+    border: 1px groove  #b8b4b4;
+    border-radius: 10px;
+    top:19px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.inbox-header {
+    position: absolute;
+    right: 12px;
+    border-bottom: 2px solid purple;
+    padding: 4px;
+
+}
+
+/*
+fonts
+*/
+.h1time{
+    font-family: Shabnam-Bold-ttf;
+    font-size: 30px;
+    color: #6155E5;
+}
+.h2time{
+    font-family: Shabnam-ttf;
+    font-size: 24px;
+    color: #6155E5;
+
+}
+.h3time{
+    font-family: Shabnam-Light-ttf;
+    font-size: 14px;
+    color: #6155E5;
+}
+.p1profile {
+    font-family: Shabnam-Bold-ttf;
+    font-size: 18px;
+    padding: 0px;
+}
+
+.p1topbox {
+    font-family: Shabnam-Light-ttf;
+    font-size: 11px;
+    color: #9e9e9e;
+    margin-right: 10px;
+    
+
+}
+.p2topbox {
+    font-family: Shabnam-Bold-ttf;
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+.topbox ul {
+    list-style-type: none;
+
+}
+.top-box li{
+    list-style-type: none;
+
 }
