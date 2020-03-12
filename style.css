@@ -28,7 +28,7 @@ body {
 
 .menu {
     height: 100%;
-    width: 270px;
+    width: 15vw;
     position: fixed;
     background-color: white;
     right: 0px;
@@ -46,8 +46,8 @@ body {
 }
 
 .navbar {
-    height: 120px;
-    width: calc(100vw - 270px);
+    height: 15vh;
+    width: 85vw;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -57,8 +57,8 @@ body {
 }
 
 .main-container {
-    height: calc(100vh - 120px);
-    width: calc(100vw - 270px);
+    height: 85vh;
+    width: 85vw;
     position: fixed;
     left: 0px;
     bottom: 0px;
@@ -69,11 +69,11 @@ body {
 
 .top-box {
     position: relative;
-    width: 280px;
-    height: 80px;
+    width: 20%;
+    height: 80%;
     background-color: white;
     border-radius: 8px;
-    box-shadow: 1px 1px 1px 1px #E6E6E6;
+    box-shadow: 3px 3px 3px 3px #E6E6E6;
     padding: 0px;
 }
 
@@ -81,8 +81,8 @@ body {
     background-image: linear-gradient(to bottom right, #8D5FE5, #5E68E4);
     position: absolute;
     left: 0px;
-    width: 68px;
-    height: 80px;
+    width: 28%;
+    height: 100%;
     top:0px;
     border-radius: 8px 0px 0px 8px;
     
@@ -92,8 +92,8 @@ body {
     background-image: linear-gradient(to bottom right, #FCC338,#F19C1D);
     position: absolute;
     left: 0px;
-    width: 68px;
-    height: 80px;
+    width: 28%;
+    height: 100%;
     border-radius: 8px 0px 0px 8px;
     
     top:0px;
@@ -103,8 +103,8 @@ body {
     background-image: linear-gradient(to bottom right, #F3477F,#EC4451);
     position: absolute;
     left: 0px;
-    width: 68px;
-    height: 80px;
+    width: 28%;
+    height: 100%;
     border-radius: 8px 0px 0px 8px;
     
     top:0px;
@@ -114,8 +114,8 @@ body {
     background-image: linear-gradient(to bottom right, #25C0F6,#5D81FC);
     position: absolute;
     left: 0px;
-    width: 68px;
-    height: 80px;
+    width: 28%;
+    height: 100%;
     border-radius: 8px 0px 0px 8px;
     
     top:0px;
@@ -127,43 +127,43 @@ body {
     
 }
 .write-box {
-    width: 750px;
-    height: 350px;
+    width: 50vw;
+    height: 47vh;
     background-image: linear-gradient(to bottom right, #8D5FE5, #5E68E4);
     border-radius: 8px;
-    box-shadow: 1px 1px #4B088A;
+    box-shadow: 5px 5px #E6E6E6;
     position: relative;
 }
 
 .summary {
-    width: 490px;
-    height: 350px;
+    width: 33vw;
+    height: 47vh;
     background-color: white;
     border-radius: 8px;
     position: relative;
-    box-shadow: 1px 1px 1px 1px #E6E6E6;
+    box-shadow: 3px 3px 3px 3px #E6E6E6;
 }
 
 .ticket {
-    width: 750px;
-    height: 230px;
+    width: 50vw;
+    height: 33vh;
     background-color: white;
     border-radius: 8px;
-    box-shadow: 1px 1px 1px 1px #E6E6E6;
+    box-shadow: 3px 3px 3px 3px #E6E6E6;
 }
 
 .inbox {
-    width: 490px;
-    height: 230px;
+    width: 33vw;
+    height: 33vh;
     background-color: white;
     border-radius: 8px;
     position: relative;
-    box-shadow: 1px 1px 1px 1px #E6E6E6;
+    box-shadow: 3px 3px #E6E6E6;
 }
 
 .time {
-    width: 270px;
-    height: 150px;
+    width: 100%;
+    height: 20%;
     text-align: center;
     display: flex;
     align-items: center;
@@ -184,8 +184,8 @@ h3 {
 }
 
 .profile {
-    width: 270px;
-    height: 100px;
+    width: 100%;
+    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
